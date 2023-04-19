@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <h2>Iam Miriam the front-end developer</h2>
     </div>
   );
 }
