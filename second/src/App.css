@@ -78,6 +78,34 @@ i {
   color: rgb(11, 194, 194);
   font-size: 1.9rem;
 }
+@media screen and (max-width: 600px) {
+ .main{
+    float: right;
+    display: block;
+    height: 700px;
+    
+  }
+  .section {
+    width: 300px;
+    margin-left: 20px;
+  }
+  #contact{
+    display: inline-block;
+  }
+  fieldset {
+    width: 350px;
+    margin-left: 30px;
+  }
+  .contact-info {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .time {
+     width: 300px;
+     margin-left: 30px;
+  }
+
+}
 .footer {
   background-color: #282c34;
   color: #eaf0f1;
