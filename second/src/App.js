@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Main from './Main';
-import Footer from './Footer'
+import Footer from './Footer';
+import ContactForm from './ContactForm'
 
 function App() {
   return (
@@ -12,15 +13,17 @@ function App() {
           <code>My first react project practice</code>
         </h2>
         <a
+          id="contact"
           className="App-link"
-          href="https://reactjs.org"
+          href="#contact"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Contact
         </a>
       </header>
       <Main />
+      <ContactForm />
       <Footer />
     </div>
   );
