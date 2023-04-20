@@ -19,6 +19,7 @@ function App() {
         </a>
       </header>
       <h2>Iam Miriam the front-end developer</h2>
+      <p>a new line in our file</p>
     </div>
   );
 }
